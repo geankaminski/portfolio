@@ -1,0 +1,162 @@
+   img {
+    	max-width: 100%;
+    }
+
+    figure>img {
+        height: 250px;
+    }
+
+	.subtitle,.title{
+		color: #2d3c49;
+		font-family: 'Open Sans', sans-serif; 
+        text-transform: uppercase;
+	}
+	
+	.container {
+		margin:0 auto;
+		width: 96%;
+	}
+
+	.labels {
+		padding-top: 5px;    
+	}
+
+    .sublabels{
+        font-size: 15em;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 60px;
+        font-size: 2em;
+        text-transform: uppercase;
+    }
+
+	#logo{
+		width: 9em;
+		padding: 50px 0 20px 10px;
+	}
+
+	.title{
+		font-size: 2em;
+	}
+
+	.text-intro{
+		float: right;
+		padding: 35px 20px 0px 0; 
+		font-family: Helvetica;
+		font-size: 24px;
+		text-align: right;
+	}
+
+  	 header {
+    	position: relative;
+    	border-bottom: 5px solid #7d97ad;
+	}
+
+    .work{
+    	font-size: 280%;
+    	color: #7d97ad;
+    }
+    .featured{
+        padding-top: 10px;
+    }
+
+    .big-image{
+    	display: block;
+        margin-left: auto;
+        margin-right: auto 
+    }
+
+    .list{
+    	display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border-radius: 4px
+    }
+
+
+    .labels {
+    	text-align: center;
+    	font-size: 2em;
+    	text-transform: uppercase;
+    }
+ 
+    .fig1 p, .fig2 p, .fig3 p {
+    	text-align: center;
+    	font-size: 1.2em;
+        border-radius: 4px;
+    }
+
+    img {
+        border-radius: 4px;
+    }
+
+    .proj1:hover, .proj2:hover, .proj3:hover {
+        transform: scale(1.2);
+    }
+
+    .fig1:hover, .fig2:hover, .fig3:hover {
+        box-shadow: 0 0 5px #333;
+        transition: box-shadow 0.7s;
+    }
+
+    footer{
+        margin-top: 40px;
+        background-color: #7d97ad;
+        text-align: right;
+    }
+
+    .copyright{
+        color: black;
+    }
+
+    @media (max-width: 620px){
+        .container {
+            margin:0 auto;
+            width: 100%;
+        }
+
+        .text-intro{
+            float: right;
+            padding: 45px 10px 0px 0; 
+            font-family: Helvetica;
+            font-size: 11px;
+            text-align: right;
+        }
+
+        #logo{
+            width: 6em;
+            padding: 50px 0 20px 0px;
+        }
+
+        .navbar {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding-top: 60px;
+            font-size: 1.1em;
+        }
+    }
+    
+
+    @media (min-width: 900px){
+         .container {
+            margin:0 auto;
+            width: 94%;
+        }
+
+        .proj1:hover, .proj2:hover, .proj3:hover {
+            box-shadow: 0 0 5px #333;
+            transition: box-shadow 0.7s;
+            transform: scale(1.2);
+        }
+    }
+
+
+
