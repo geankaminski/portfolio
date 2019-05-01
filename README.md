@@ -1,5 +1,5 @@
 # Udacity-Portfolio
-This Portfolio is a Project for every student of the Front-End Web Nano Degree Scholarship to show our projects.
+This Portfolio is a Project for every student of the Front-End Web Nano Degree Scholarship to show our future projects.
 
 ## Goals
 
