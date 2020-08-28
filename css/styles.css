@@ -79,11 +79,9 @@
         border-radius: 4px
     }
 
-
     .labels {
     	text-align: center;
     	font-size: 2em;
-    	text-transform: uppercase;
     }
  
     .fig1 p, .fig2 p, .fig3 p {
@@ -96,13 +94,8 @@
         border-radius: 4px;
     }
 
-    .proj1:hover, .proj2:hover, .proj3:hover {
-        transform: scale(1.2);
-    }
-
     .fig1:hover, .fig2:hover, .fig3:hover {
-        box-shadow: 0 0 5px #333;
-        transition: box-shadow 0.7s;
+       
     }
 
     footer{
@@ -154,7 +147,7 @@
         .proj1:hover, .proj2:hover, .proj3:hover {
             box-shadow: 0 0 5px #333;
             transition: box-shadow 0.7s;
-            transform: scale(1.2);
+            
         }
     }
 
